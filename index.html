@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kanban Board</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="app">
+  <div class="board" id="todo">
+    <div class="board-header">To Do</div>
+    <div class="board-body" id="todo-body" ondrop="drop(event)" ondragover="allowDrop(event)">
+    </div>
+  </div>
+  <div class="board" id="in-progress">
+    <div class="board-header">In Progress</div>
+    <div class="board-body" id="in-progress-body" ondrop="drop(event)" ondragover="allowDrop(event)">
+    </div>
+  </div>
+  <div class="board" id="done">
+    <div class="board-header">Done</div>
+    <div class="board-body" id="done-body" ondrop="drop(event)" ondragover="allowDrop(event)">
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
