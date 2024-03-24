@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.board {
+  width: 250px;
+  background-color: #f0f0f0;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.board-header {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.board-body {
+  min-height: 100px;
+  padding-top: 10px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #f9f9f9;
+}
